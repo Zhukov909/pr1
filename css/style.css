@@ -10,28 +10,44 @@
     src: url('../fonts/OpenSans-Bold.ttf');
     font-family: "OpenSans-Bold";
 }
+@font-face {
+    src: url('../fonts/OpenSans-ExtraBold.ttf');
+    font-family: "OpenSans-ExtraBold";
+}
+
 body {
-    
     background-color: rgb(216, 216, 216);
     padding: 0px;
     margin: 0px;
 }
+h1 {
+    font-family: "OpenSans-ExtraBold";
+    color: rgb(0, 0, 0);
+}
 h2 {
-    color: rgb(4, 4, 163);
+    font-family: "OpenSans-Regula";
+    color: rgb(0, 0, 130);
+}
+.text_about_my {
+    text-indent: 25px;
+    font-size: 14px;
 }
 
+.main {
+    display: flex;
+    justify-content: space-between;
+}
 .headerOk {
     position: sticky;
-    
+
     top: 0;
     width: 100%;
     height: 30px;
     z-index: 100;
 
-    background-color: rgb(116, 116, 116, 0.7);
+    background-color: rgb(116, 116, 116, 0.5);
 }
 .button_header {
-    
     padding: 10px 35px;
     text-transform: uppercase;
     color: rgb(255, 255, 255);
@@ -42,79 +58,86 @@ h2 {
     font-size: 20px;
 }
 
-h2:target {
-    color: rgb(250, 6, 6);
+.aside {
+    
+    font-family: "OpenSans-Italic";
+    background-color: rgb(184, 184, 184);
+    border-radius: 15px;
+    margin: 1px;
+}
+
+.main_article {
+    display: flex;
+    flex-direction: column;
 }
 
 .my_image {
-   
-    display: block;
-    border: 8px solid rgb(5, 5, 5);
-    border-radius: 5px;
-    margin: 0 auto 10px;
-    padding: 0px;
-}
-.my_image:hover {
-
     border: 1px solid rgb(5, 5, 5);
-    border-radius: 10px;
-    transform: scale(1.08);
-    transition: all 0.1s ease 0s;
+    border-radius: 15px;
+    margin: 1px 1px 1px;
+    width: 200px;
 }
 
-.mainOk {}
 
-.my_name {
-    position: relative;
-}
 .about_me {
     font-family: "OpenSans-Italic";
-    position: relative;
     background-color: rgb(184, 184, 184);
-    margin: 30px 0px 4px;
-    padding: 10px;
+    border-radius: 15px;
+    margin: 1px 1px 1px 0px;
+    padding: 5px 15px 5px;
 }
 .skills {
     font-family: "OpenSans-Regula";
-    position: relative;
     background-color: rgb(184, 184, 184);
-    margin: 4px 0px;
-    padding: 10px;
+    border-radius: 15px;
+    margin: 1px 1px 1px 0px;
+    padding: 5px 15px 1px; 
 }
-.contacts {
-    font-family: "OpenSans-Bold";
-    position: relative;
+.work {
+    font-family: "OpenSans-Regula";
     background-color: rgb(184, 184, 184);
-    margin: 4px 0px;
-    padding: 10px;
+    border-radius: 15px;
+    margin: 1px 1px 1px 0px;
+    padding: 5px 15px 5px; 
+}
+.main_footer {
+    display: flex;
+    flex-direction: row;
+    
+}
+.main_footer_section {
+    
+    flex-grow: 1;
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    border: rgb(0, 0, 130);
+    border-radius: 50%;
 }
 
-.anchor {
-    position: absolute;
-    top: -30px;
-}
+
+
 
 .footerOk {
-    height: 20px;
+    height: 23px;
     position: sticky;
     bottom: 0px;
     background-color: rgb(116, 116, 116, 0.7);
-    
-    padding: 5px;
-    margin-top: 10px;
-    
+
+    padding: 1px;
+    margin-top: 1px;
 }
 
 .button_footerOk {
     width: 160px;
     font-size: large;
-
 }
+
 .button_footerOk:hover {
     width: 300px;
     border: 1px solid black;
     border-radius: 5px;
     background-color: rgb(116, 116, 116, 1);;
     transform: scale(1.2);
-    transition: 0.7s linear 1s
+    transition: 0.7s linear 0.1s
 }

@@ -5,67 +5,92 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <meta http-equiv="Refresh" content="10" />
+    <meta http-equiv="Refresh" content="60" />
     
     <title>Сайт визитка</title>
     <link rel="stylesheet" href="css/style.css">
-    
+
 </head>
 <body>
     <header class="headerOk">
         <center>
-            <a class="button_header" href="#about_me">Обо мне</a>
-            <a class="button_header" href="#skills">Навыки</a>
-            <a class="button_header" href="#contacts">Контакты</a>
+            <nav>
+                <a class="button_header" href="#about_me">Обо мне</a>
+                <a class="button_header" href="#skills">Навыки</a>
+                <a class="button_header" href="#contacts">Контакты</a>
+            </nav>
         </center>
     </header>
 
-    <main class="mainOk">
-        <section  class="my_name">
-            <center>
-              <a class="anchor" id="Home"></a>
-              <h1>Жуков Анзор. Разработчик.</h1>
-         </center>
+    <main class="main">
 
-        </section>
+        <aside class="aside" >
+            <img class="my_image" src="image/img1.jpg" alt="Мое фото" >
+            <section class="contacts">
+                <img src="./svg/contact_phone_black_24dp.svg" alt="address" class="contacts-icon">
+                <a href="tel: +79180000000">+7 (918) 913-00-00</a>
+                <br>
+                <img src="./svg/email_black_24dp.svg" alt="address" class="contacts-icon">
+                <a href="mailto: a.zhukov909@gmail.com">a.zhukov909@gmail.com</a>
+                <br>
+                <img src="./svg/outline_person_pin_circle_black_24dp.png" alt="address" class="contacts-icon">
+                <a href="https://yandex.ru/maps/?um=constructor%3A823ab0f3671e894bdad1add8f23103735d11c42bb213fa9b062572a6e1066e18&source=constructorLink" target="_blank"> г. Таганрог, ул. Петровская </a> 
+            </section>
+        </aside>
+
+        <article class="main_article">
+            <section class="about_me">
+                <h1>Жуков Анзор. <br> Разработчик.</h1>
+                <h2>Обо мне</h2>
+                <p class="text_about_my">Тут много текста <strong>обо мне</strong> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus quae cum distinctio delectus! Consequuntur voluptatum itaque debitis repellendus perspiciatis sunt maiores repellat magni, aliquid, ducimus molestiae facilis iste pariatur sequi!Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            </section>
+            
+            <section class="skills">
+                <h2 >Навыки</h2>
+                <ul>
+                    <li>HTML 5</li>
+                    <li>CSS 3</li>
+                    <li>JavaScript</li>
+                    <li>Ract</li>
+                    <li>TypeScrypt</li>
+                    <li>View.js</li>
+                </ul>
+            </section>
+    
+            <section class="work">
+                <h2 >Работы</h2>
+                <ul>
+                    <li>HTML 5</li>
+                    <li>CSS 3</li>
+                    <li>Bootstrap</li>
+                    <li>JavaScript</li>
+                    <li>TypeScrypt</li>
+                    <li>Node.js</li>
+                    <li>Ract.js</li>
+                    <li>View.js</li>
+                    <li>Git</li>
+                    <li>My SQL</li>
+                    <li>DOM</li>
+                    <li>Kotlin</li>
+                    <li>Python</li>
+                </ul>
+            </section>
+        </article>
         
-        
-        <img class="my_image" src="image/img1.jpg" alt="Мое фото" width="300px">
-
-        <section class="about_me">
-            <a class="anchor" id="about_me"></a>
-            <h2>Обо мне</h2>
-            <p>Тут много текста <strong>обо мне</strong>. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus quae cum distinctio delectus! Consequuntur voluptatum itaque debitis repellendus perspiciatis sunt maiores repellat magni, aliquid, ducimus molestiae facilis iste pariatur sequi!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus quae cum distinctio delectus! Consequuntur voluptatum itaque debitis repellendus perspiciatis sunt maiores repellat magni, aliquid, ducimus molestiae facilis iste pariatur sequi!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus quae cum distinctio delectus! Consequuntur voluptatum itaque debitis repellendus perspiciatis sunt maiores repellat magni, aliquid, ducimus molestiae facilis iste pariatur sequi!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus quae cum distinctio delectus! Consequuntur voluptatum itaque debitis repellendus perspiciatis sunt maiores repellat magni, aliquid, ducimus molestiae facilis iste pariatur sequi!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus quae cum distinctio delectus! Consequuntur voluptatum itaque debitis repellendus perspiciatis sunt maiores repellat magni, aliquid, ducimus molestiae facilis iste pariatur sequi!</p>
-        </section>
-        
-        <section class="skills">
-            <a class="anchor" id="skills"></a>
-            <h2 >Навыки</h2>
-            <ul>
-                <li>HTML 5</li>
-                <li>CSS 3</li>
-                <li>JavaScript</li>
-                <li>Ract</li>
-                <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus quae cum distinctio delectus! Consequuntur voluptatum itaque debitis repellendus perspiciatis sunt maiores repellat magni, aliquid, ducimus molestiae facilis iste pariatur sequi!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus quae cum distinctio delectus! Consequuntur voluptatum itaque debitis repellendus perspiciatis sunt maiores repellat magni, aliquid, ducimus molestiae facilis iste pariatur sequi!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus quae cum distinctio delectus! Consequuntur voluptatum itaque debitis repellendus perspiciatis sunt maiores repellat magni, aliquid, ducimus molestiae facilis iste pariatur sequi!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus quae cum distinctio delectus! Consequuntur voluptatum itaque debitis repellendus perspiciatis sunt maiores repellat magni, aliquid, ducimus molestiae facilis iste pariatur sequi!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus quae cum distinctio delectus! Consequuntur voluptatum itaque debitis repellendus perspiciatis sunt maiores repellat magni, aliquid, ducimus molestiae facilis iste pariatur sequi!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus quae cum distinctio delectus! Consequuntur voluptatum itaque debitis repellendus perspiciatis sunt maiores repellat magni, aliquid, ducimus molestiae facilis iste pariatur sequi!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus quae cum distinctio delectus! Consequuntur voluptatum itaque debitis repellendus perspiciatis sunt maiores repellat magni, aliquid, ducimus molestiae facilis iste pariatur sequi!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus quae cum distinctio delectus! Consequuntur voluptatum itaque debitis repellendus perspiciatis sunt maiores repellat magni, aliquid, ducimus molestiae facilis iste pariatur sequi!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus quae cum distinctio delectus! Consequuntur voluptatum itaque debitis repellendus perspiciatis sunt maiores repellat magni, aliquid, ducimus molestiae facilis iste pariatur sequi!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus quae cum distinctio delectus! Consequuntur voluptatum itaque debitis repellendus perspiciatis sunt maiores repellat magni, aliquid, ducimus molestiae facilis iste pariatur sequi!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus quae cum distinctio delectus! Consequuntur voluptatum itaque debitis repellendus perspiciatis sunt maiores repellat magni, aliquid, ducimus molestiae facilis iste pariatur sequi!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus quae cum distinctio delectus! Consequuntur voluptatum itaque debitis repellendus perspiciatis sunt maiores repellat magni, aliquid, ducimus molestiae facilis iste pariatur sequi!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus quae cum distinctio delectus! Consequuntur voluptatum itaque debitis repellendus perspiciatis sunt maiores repellat magni, aliquid, ducimus molestiae facilis iste pariatur sequi!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus quae cum distinctio delectus! Consequuntur voluptatum itaque debitis repellendus perspiciatis sunt maiores repellat magni, aliquid, ducimus molestiae facilis iste pariatur sequi!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus quae cum distinctio delectus! Consequuntur voluptatum itaque debitis repellendus perspiciatis sunt maiores repellat magni, aliquid, ducimus molestiae facilis iste pariatur sequi!</li>
-            </ul>
-        </section>
-
-        <section class="contacts">
-            <a class="anchor" id="contacts"></a>
-            <h2>Контакты</h2>
-            <span><address></address>&#9773 адрес: г. Таганрог, ул. Петровская, д. 66</address><br></span>
-            <span>&#9742 телефон: <a href="tel: +79180000000">+7 (918) 000-00-00</a> <br></span>
-            <span>&#128386 почта:    <a href="mailto: a.zhukov909@gmail.com">a.zhukov909@gmail.com</a></span>
-            <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus quae cum distinctio delectus! Consequuntur voluptatum itaque debitis repellendus perspiciatis sunt maiores repellat magni, aliquid, ducimus molestiae facilis iste pariatur sequi!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus quae cum distinctio delectus! Consequuntur voluptatum itaque debitis repellendus perspiciatis sunt maiores repellat magni, aliquid, ducimus molestiae facilis iste pariatur sequi!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus quae cum distinctio delectus! Consequuntur voluptatum itaque debitis repellendus perspiciatis sunt maiores repellat magni, aliquid, ducimus molestiae facilis iste pariatur sequi!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus quae cum distinctio delectus! Consequuntur voluptatum itaque debitis repellendus perspiciatis sunt maiores repellat magni, aliquid, ducimus molestiae facilis iste pariatur sequi!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus quae cum distinctio delectus! Consequuntur voluptatum itaque debitis repellendus perspiciatis sunt maiores repellat magni, aliquid, ducimus molestiae facilis iste pariatur sequi!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus quae cum distinctio delectus! Consequuntur voluptatum itaque debitis repellendus perspiciatis sunt maiores repellat magni, aliquid, ducimus molestiae facilis iste pariatur sequi!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus quae cum distinctio delectus! Consequuntur voluptatum itaque debitis repellendus perspiciatis sunt maiores repellat magni, aliquid, ducimus molestiae facilis iste pariatur sequi!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus quae cum distinctio delectus! Consequuntur voluptatum itaque debitis repellendus perspiciatis sunt maiores repellat magni, aliquid, ducimus molestiae facilis iste pariatur sequi!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus quae cum distinctio delectus! Consequuntur voluptatum itaque debitis repellendus perspiciatis sunt maiores repellat magni, aliquid, ducimus molestiae facilis iste pariatur sequi!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus quae cum distinctio delectus! Consequuntur voluptatum itaque debitis repellendus perspiciatis sunt maiores repellat magni, aliquid, ducimus molestiae facilis iste pariatur sequi!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus quae cum distinctio delectus! Consequuntur voluptatum itaque debitis repellendus perspiciatis sunt maiores repellat magni, aliquid, ducimus molestiae facilis iste pariatur sequi!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus quae cum distinctio delectus! Consequuntur voluptatum itaque debitis repellendus perspiciatis sunt maiores repellat magni, aliquid, ducimus molestiae facilis iste pariatur sequi!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus quae cum distinctio delectus! Consequuntur voluptatum itaque debitis repellendus perspiciatis sunt maiores repellat magni, aliquid, ducimus molestiae facilis iste pariatur sequi!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus quae cum distinctio delectus! Consequuntur voluptatum itaque debitis repellendus perspiciatis sunt maiores repellat magni, aliquid, ducimus molestiae facilis iste pariatur sequi!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus quae cum distinctio delectus! Consequuntur voluptatum itaque debitis repellendus perspiciatis sunt maiores repellat magni, aliquid, ducimus molestiae facilis iste pariatur sequi!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus quae cum distinctio delectus! Consequuntur voluptatum itaque debitis repellendus perspiciatis sunt maiores repellat magni, aliquid, ducimus molestiae facilis iste pariatur sequi!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus quae cum distinctio delectus! Consequuntur voluptatum itaque debitis repellendus perspiciatis sunt maiores repellat magni, aliquid, ducimus molestiae facilis iste pariatur sequi!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus quae cum distinctio delectus! Consequuntur voluptatum itaque debitis repellendus perspiciatis sunt maiores repellat magni, aliquid, ducimus molestiae facilis iste pariatur sequi!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus quae cum distinctio delectus! Consequuntur voluptatum itaque debitis repellendus perspiciatis sunt maiores repellat magni, aliquid, ducimus molestiae facilis iste pariatur sequi!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus quae cum distinctio delectus! Consequuntur voluptatum itaque debitis repellendus perspiciatis sunt maiores repellat magni, aliquid, ducimus molestiae facilis iste pariatur sequi!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus quae cum distinctio delectus! Consequuntur voluptatum itaque debitis repellendus perspiciatis sunt maiores repellat magni, aliquid, ducimus molestiae facilis iste pariatur sequi!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus quae cum distinctio delectus! Consequuntur voluptatum itaque debitis repellendus perspiciatis sunt maiores repellat magni, aliquid, ducimus molestiae facilis iste pariatur sequi!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus quae cum distinctio delectus! Consequuntur voluptatum itaque debitis repellendus perspiciatis sunt maiores repellat magni, aliquid, ducimus molestiae facilis iste pariatur sequi!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus quae cum distinctio delectus! Consequuntur voluptatum itaque debitis repellendus perspiciatis sunt maiores repellat magni, aliquid, ducimus molestiae facilis iste pariatur sequi!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus quae cum distinctio delectus! Consequuntur voluptatum itaque debitis repellendus perspiciatis sunt maiores repellat magni, aliquid, ducimus molestiae facilis iste pariatur sequi!</span>
-        </section>
-
     </main>
-
+        <div class="main_footer">
+            <section class="main_footer_section"></section>
+            <section class="main_footer_section"></section>
+            <section class="main_footer_section"></section>
+            <section class="main_footer_section"></section>
+            <section class="main_footer_section"></section>
+          
+        </div>
     <footer class="footerOk">
         <center>
-            <center class="button_footerOk">
-                <a  href="#Home">Zor An &#64 2021</a>
-            </center>
+            <span class="button_footerOk">
+                Zor An &#64 2021
+            </span>
         </center>
     </footer>
 
